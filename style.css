@@ -17,6 +17,7 @@
   h1 {
     font-size: 96px;
   }
+
   
   h2 {
     font-size: 48px;
@@ -89,3 +90,13 @@
   .mt-5{
 text-align: center;
   }
+
+  @media (max-width:450px){
+    h1{ 
+        font-size: 18px;
+        text-align: center;
+    }
+    .footer{
+   text-align: center;
+    }
+}

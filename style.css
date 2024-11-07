@@ -17,7 +17,6 @@
   h1 {
     font-size: 96px;
   }
-
   
   h2 {
     font-size: 48px;
@@ -87,16 +86,28 @@
   .email-link:hover {
     text-decoration: underline;
   }
-  .mt-5{
-text-align: center;
-  }
 
-  @media (max-width:450px){
-    h1{ 
-        font-size: 18px;
+  @media (max-width:576px) {
+    h1 {
+        margin-top:60px;
+        font-size: 40px;
         text-align: center;
     }
-    .footer{
-   text-align: center;
+    h3{
+        font-size: 22px;
+        margin-top: 10px;
     }
-}
+    h2{
+        font-size: 20px;
+    }
+    p { 
+    font-size: 15px;
+    padding: 0 18px 0 18px;
+    }
+    .email-link{
+    font-size: 18px;
+    }
+    .img-fluid {
+    display: none;
+    }
+  }
